@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Rachel Conatser Portfolio</title>
+</head>
+    
+<body>
+<!-- START OF THE HEADER -->
+    <div class="header">
+    <header>
+        <a href="index.html"><h1>Rachel Conatser</h1></a>
+        <h2>Web Design Portfolio</h2>
+    </header>
+    
+<!-- START OF THE NAVIGATION -->
+    <nav>
+        <ul class="mainNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="keepOpen"></div>
+    </nav>
+    </div>
+    
+<!-- START OF THE MAIN CONTENT -->
+    <main>
+        <div class="banner-interior-contact">
+            <h1 class="title">Contact Me</h1>
+        </div>
+        <div class="wrapper">
+        <form action="https://formspree.io/10806252@my.uvu.edu" method="POST" class="contact-form">
+            <fieldset>
+                <legend>Let's Keep in Touch!</legend>
+                <label><span class="form">First Name:</span><input name="first" value="" type="text" placeholder="First Name" class="input-style" required /></label>
+                <label><span class="form">Last Name:</span><input name="last" value="" type="text" placeholder="Last Name"  class="input-style" required /></label>
+                <label><span class="form">Email:</span><input name="_replyto" value="" type="email" placeholder="none@none.com" class="input-style" required /></label>
+                <label><span class="form">Phone:</span><input name="phone" value="" type="tel" placeholder="(123) 456-7890" pattern="[0-9]-) ({10-13}" class="input-style" /></label>
+                <label><span class="form">Any questions, comments, or concerns?</span>
+                <textarea name="message" placeholder="Questions, comments, or concerns?" class="form-message"></textarea></label>
+                
+                <input type="hidden" name="_subject" value="Message from Website" />
+                <input type="hidden" name="_next" value="http://portfolio.rconatser.com/sent.html" />
+                <input type="text" name="_gotcha" style="display:none" />
+            
+                <input type="submit" name="submit" value="Send" class="form-button">
+            </fieldset>
+        </form>
+        </div>
+    </main>
+    
+<!-- START OF THE FOOTER -->
+    <footer class="page-footer">
+        <ul class="mainNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="keepOpen"></div>
+        
+        <p>&copy; 2018 &bull; Professional Portfolio &bull; Built by Rachel Conatser</p>
+    </footer>
+    
+</body>
+</html>
